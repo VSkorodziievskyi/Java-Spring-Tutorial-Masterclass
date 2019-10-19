@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!--a few notes for better understanding of this and similar code-->
+<html lang="en">
+<head id="headId">
+    <!--This line of code is using head fragment from head.html and "headId" defined in Thymeleaf template logic file - home.th.xml-->
+    <meta charset="UTF-8">
+    <title>Preview mode title</title> <!--This title replaced to make sure that the fragment imported-->
+</head>
+<body>
+<div align="center">
+    <h1 id="game-welcome">Welcome to the Number Game</h1>
+    <h3>
+        <a id="play-url"
+           href="play.html"> <!-- This href allows using this link in Intellij`s preview mode -->
+            Click to Play</a> <!-- Click to Play modified in home.th.xml -->
+    </h3>
+    <footer id="footerId">
+        <p>Preview mode footer</p>
+    </footer>
+</div>
+</body>
+</html>

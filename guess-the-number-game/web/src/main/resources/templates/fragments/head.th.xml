@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#headId"
+          th:fragment="head"/> <!--name of the fragment-->
+    <attr sel="#title"
+          th:text="#{game.title}"/> <!--this is a value of the key from messages.properties file in the core module-->
+</thlogic>

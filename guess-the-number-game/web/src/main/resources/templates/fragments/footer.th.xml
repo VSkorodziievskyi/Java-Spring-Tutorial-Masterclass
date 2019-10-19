@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#footerId"
+          th:fragment="footer"/>
+    <attr sel="#footer"
+          th:text="|#{game.footer} the Learn Programming Academy|"/> <!--|#{translated text} fixed text|-->
+</thlogic>

@@ -1,0 +1,11 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: head}"/> <!--head fragment defined in fragments/head.html-->
+    <attr sel="#game-welcome"
+          th:text="#{game.welcome}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footer}"/>
+    <attr sel="#play-url"
+          th:href="@{__${T(academy.learnprogramming.util.GameMappings).PLAY}__}"
+          th:text="#{game.play}"/> <!--href is from GameMappings class and "Click to Play" text replaced by game.play property from messages.properties file-->
+</thlogic>
